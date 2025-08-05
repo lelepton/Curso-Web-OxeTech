@@ -1,0 +1,38 @@
+header {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+h2 {
+    color: indigo;
+}
+
+h3 {
+    color: darkcyan;
+}
+
+p {
+    text-align: justify;
+    line-height: 2.0;
+}
+
+.Rust p {
+    color: rgb(46, 141, 250);
+}
+
+.AI p {
+    color: rgb(2, 2, 78);
+}
+
+footer {
+    background-color: rgb(165, 147, 226);
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
