@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ecf6ff;
+    padding: 20px;
+    border: 2px solid rgb(189, 148, 243);
+    border-radius: 10px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.noticia {
+    background-color: #fdfcfc;
+    padding: 20px;
+    border: 2px solid #b7bcff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+hr {
+    height: 3px;
+    background-color: #b7bcff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+    color: gray;
+}
