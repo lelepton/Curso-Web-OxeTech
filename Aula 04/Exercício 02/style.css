@@ -1,0 +1,87 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e6cbff;
+}
+
+header {
+    background-image: linear-gradient(#924fd2, #55287f);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 
+PERGUNTAR POR QUE NÃO PRECISAMOS COLOCAR ISSO, ELE JÁ TIROU SOZINHO
+
+header ul {
+    list-style-type: none;
+} */
+
+header li {
+    display: inline-block;
+    background-color: rgb(153, 100, 223);
+    width: 245px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+header a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+main {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    margin: 15px 0 5px 0;
+}
+
+.divisao {
+    width: 100%;
+    height: 1px;
+    background-color: #924fd2;
+    margin: 20px 0;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #55287f;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
