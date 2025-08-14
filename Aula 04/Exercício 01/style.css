@@ -52,15 +52,14 @@ main section:nth-child(2), :nth-child(4) {
 /* seção 2 */
 .section-full-parallax {
     background-image: url(images/fundo1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 /* seção 4 */
 .section-full {
-    background-image: url(images/fundo2.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: white url(images/fundo2.png) no-repeat center / cover;
 }
 
 footer {
