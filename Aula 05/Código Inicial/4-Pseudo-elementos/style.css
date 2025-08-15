@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+/* p::before {
+  content: "Início ";
+  color: red;
+}
+
+p::after {
+  content: " Fim";
+  color: green;
+} */
+
+/* se eu quiser aumentar só a primeira letra, daria teoricamente para fazer com o span mas é feio...
+mas é melhor usar o ::first-letter */ 
+p::first-letter {
+  font-size: 20px;
+}
+
+/* garantir que as bolinhas estão alinhadas */
+ul {
+  list-style-position: inside;
+}

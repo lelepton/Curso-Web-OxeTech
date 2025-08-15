@@ -1,0 +1,19 @@
+/* Telas Grandes: vermelho - 1024px
+Telas Médias: verde - 768px
+Telas Pequenas: azul - 480px */
+
+body {
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}

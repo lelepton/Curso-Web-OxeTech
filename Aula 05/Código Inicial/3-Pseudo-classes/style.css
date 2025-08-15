@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: #aa44a8; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  background-color: #943892;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* quando o cursor passa por cima do link */
+a:hover {
+  background-color: #aa44a8;
+}
+
+/* quando você pressiona o link */
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: blue;
+}
+
+ul li:nth-child(1) {
+  color: yellow;
+}
