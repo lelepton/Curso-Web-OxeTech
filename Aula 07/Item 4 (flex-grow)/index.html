@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            background-color: #add8e6;
+            padding: 10px;
+            display: flex;
+
+            flex-flow: row nowrap;
+        }
+
+        .container > div {
+            border: 1px solid black;
+            background-color: #5e8eef;
+            padding: 10px;
+            text-align: center;
+        }
+
+        item1 {
+            /* flex-grow diz se os itens podem ou não podem crescer. o padrão é 0, ou seja, não pode crescer */
+            flex-grow: 0;
+        }
+
+        item2 {
+            flex-grow: 1;
+        }
+
+        item3 {
+            /* dá o tamanho necessário que os itens 1 e 4 precisam. pega o espaço restante e divide em 4 e divide. */
+            flex-grow: 2;
+        }
+
+        item4 {
+            flex-grow: 0;
+        }
+
+        item5 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+    </div>
+</body>
+</html>

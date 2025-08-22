@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            background-color: #add8e6;
+            padding: 10px;
+            display: flex;
+            flex-flow: row nowrap;
+
+            /* justify-content - pode ser 6!
+            flex-start - padrão, começa do start do main axis
+            flex-end - começa do end do main axis
+
+            space-around - o espaçamento entre os elementos é o dobro do espaçamento das bordas. divide o espaçamente pela quantidade de elementos que tem dentro e depois centraliza cada um desses elementos nesse espaço.
+            space-between - cola o primeiro e o último elemento ao start e ao end e depois divide o espaço entre os outros igualmente
+            space-evenly - divide igualmente o espaço. então a distância entre os elementos e também entre eles e as bordas são o mesmo */
+
+            justify-content: center;
+        }
+
+        .container > div {
+            border: 1px solid black;
+            background-color: #5e8eef;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+</body>
+</html>
